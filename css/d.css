@@ -1,0 +1,125 @@
+body,html{
+
+	background-image: url("../img/planeta.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+	height:100%;
+	padding:0px;
+	margin:0px;
+
+	
+}
+.a{
+	
+}
+
+.b{
+	
+}
+
+.c{
+	
+	display:block !important
+}
+
+.a,.b,.c{
+
+	display:inline-block;
+	width:33.33%;
+	height:100%;
+	float:left;
+}
+
+.d{
+
+	background-color:pink;
+	height:10%;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+}
+
+.d img{ 
+	width: 100%;
+	height: 100%; 
+}
+
+#nave{
+	text-align:center;
+	position:fixed;
+	top:10%;
+	width:100%;
+	height:20%;
+	z-index: 3;
+	
+}
+
+
+#navecon{
+	height: 40%;
+	display:none;
+	margin:auto;
+}
+#navesin{
+	height: 50%;
+	display: block;
+	margin:auto;
+}
+#cpanel{
+	margin-top: 20%;
+	font-size: 175%;
+	color: #80FF00;
+	margin-left: 10%;
+}
+
+#hidem,#showm{
+	display:none;
+}
+
+#menu{
+	color: #80FF00;
+	margin-top: 20%;
+	margin-left: 40%;
+	font-size: 175%;
+}
+
+#planeta img{
+
+	top: 10%;
+}
+
+#planeta{
+	position: absolute;
+	margin-left: 53%;
+	bottom: 24%;
+	height: 50%;
+	z-index: 2;
+}
+
+#planeta img{
+	width: 150%;
+}
+
+#derrota {
+	text-align:center;
+	display: none;
+	color: #80FF00;;
+	position: fixed;
+	left: 32.2%;
+	top: 10%;
+	font-size: 290%;
+	z-index: 4;
+}
+
+
+#ganar {
+	text-align:center;
+	display: none;
+	color: #80FF00;;
+	position: fixed;
+	left: 32.2%;
+	top: 10%;
+	font-size:290%;
+	z-index: 4;
+}
